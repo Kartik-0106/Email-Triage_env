@@ -425,7 +425,3 @@ Replace the OpenAI calls in `baseline/run_baseline.py` with your own model. The 
 | Tests failing on Windows | Use `python -m pytest tests/ -v` instead of `pytest` |
 
 ---
-
-## License
-
-MIT — free to use, modify, and distribute.
