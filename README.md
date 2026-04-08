@@ -1,3 +1,18 @@
+---
+title: Email Triage OpenEnv
+emoji: 📧
+colorFrom: blue
+colorTo: indigo
+sdk: docker 
+sdk_version: "4.20.0"
+app_file: app.py
+pinned: false
+license: mit
+tags:
+  - openenv
+  - email-triage
+---
+
 # 📧 Email Triage OpenEnv
 
 A **production-ready OpenEnv environment** for training and evaluating AI agents on real-world email triage tasks. Fully compliant with the OpenEnv standard: typed `Observation`, `Action`, and `Reward` models via Pydantic; `step()`, `reset()`, and `state()` API; deterministic seeded episodes; and three difficulty-tiered tasks with programmatic graders.
